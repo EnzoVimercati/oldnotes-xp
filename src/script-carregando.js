@@ -8,6 +8,11 @@ setTimeout(() => {
   setTimeout(() => {
     document.getElementById('main').style.display = 'block'; 
     console.log("5 segundos após o carregamento da página");
+    onclick = () => {
+      const som = document.getElementById('meuSomclick');
+      som.currentTime = 0;
+      som.play();
+    }
   }, 4000);
 
   setTimeout(() => {

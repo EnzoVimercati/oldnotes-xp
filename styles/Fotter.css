@@ -3,8 +3,8 @@
     bottom: 0;
     left: 0;
     width: 100%;
-    height: 40px;
-    background: linear-gradient(to top, #3d6ddb, #60a0ef);
+    height: 30px;
+    background: linear-gradient(to top,rgb(36, 95, 218), rgb(35, 90, 216));
     border-top: 2px solid #1d397f;
     box-shadow: inset 0 1px 2px #7fa6e0;
     display: flex;
@@ -15,25 +15,11 @@
     z-index: 9999;
   }
   
-  .btn-iniciar {
-    display: flex;
-    align-items: center;
-    gap: 5px;
-    background: linear-gradient(to bottom, #7fe173, #2e8b57);
-    border: 2px solid #0b4c0b;
-    border-radius: 5px;
-    padding: 5px 12px;
-    color: white;
-    font-weight: bold;
-    font-size: 14px;
-    text-shadow: 1px 1px #000;
-    cursor: pointer;
-  }
-  
-  .btn-iniciar img {
-    width: 20px;
-    height: 20px;
-  }
+.btnstart {
+  margin-left: -10px;
+  width:  120px;
+  height: 32px;
+}
   
   .tarefas-abertas {
     flex-grow: 1;
@@ -44,6 +30,10 @@
   }
   
   .relogio {
+    padding: 6px;
+    margin-right: 10px;
+    padding-left: 30px;
+    background: linear-gradient(to top, rgb(23, 153, 216), rgb(13, 141, 228));
     padding-right: 30px;
     color: white;
     font-size: 13px;
