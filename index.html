@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/styles/style.css">
+    <link rel="stylesheet" href="/styles/reset.css">
+    <link rel="stylesheet" href="/styles/Apps-main.css">
+    <link rel="stylesheet" href="/styles/Fotter.css">
+
+    <link rel="stylesheet" href="/styles/login.css">
+</head>
+<body>
+    <div id="xp-erro" class="xp-erro">
+        <div class="xp-barra-superior">
+          <span>Erro</span>
+          <button onclick="fecharErro()">✕</button>
+        </div>
+        <div class="xp-conteudo">
+          <img src="/assets/btn-error.png" alt="Erro" class="xp-icone">
+          <span class="xp-mensagem">Ocorreu um erro.</span>
+        </div>
+        <div class="xp-botoes">
+          <button onclick="fecharErro()">OK</button>
+        </div>
+      </div>     
+      <div id="main-loader">
+        <div id="loading">
+            <link rel="stylesheet" href="/styles/reset.css">
+            <img src="/assets/OldNotesMinimum.png" alt="Logo" id="logo-loading">
+            <link rel="stylesheet" href="/styles/Apps-main.css">
+    <div class="window">
+        <div class="logo">
+        </div>
+        <div class="container">
+          <div class="box"></div>
+          <div class="box"></div>
+          <div class="box"></div>
+        </div>
+      </div>
+
+    </div>
+</div>
+
+<div id="login">
+
+</div>
+
+<div id="main">
+
+    <!--Audios que eu usei -->
+    <audio id="meuSomclick" src="/assets/mouse-click-by-ek6_VR0O6PL.mp3" preload="auto"></audio>
+    <audio id="meuSomfechar" src="/assets/windows-xp-notify.mp3" preload="auto"></audio>
+    <audio id="meuSomConcluido" src="/assets/windows-xp-print-complete.mp3" preload="auto"></audio>
+    <audio id="meuSomIniciar" src="/assets/windows-xp-zapusk.mp3" preload="auto"></audio>
+    <audio id="meuSomError" src="/assets/windows-xp-critical-error-full-version.mp3" preload="auto"></audio>
+    <!----------------------->
+
+    <button id="CriarNota"><img src="/assets/Sticky_Notes_Windows_XP_Tablet_Edition.webp" alt="" class="app"> <p class="app-nome">OldNotes</p></button>
+   
+    <div id="Main-criar">
+        <div class="barra-superior"> OldNotes
+          <button id="fecharmain" class="btnfechar">✕</button>
+        </div>
+        <input id="inpListaTitle" placeholder="Titulo">
+        <p></p>
+        <input id="inpLista" placeholder="Conteúdo">
+        <p></p>
+        <label for="corNota">Cor da nota:</label>
+        <input type="color" id="corNota" value="#ffff88">
+        <p></p>
+      
+        <button id="btnAdicionar"> Criar </button>
+       <button class="btnlistaeditar" id="btnToggleEdicao">Editar nota</button>
+      </div>
+      
+    
+    <div id="listaContainer"></div>
+    
+    <footer id="barra-tarefas">
+        <div class="btn-iniciar">
+          <img src="/assets/OldNotessemtitulo.png" alt="Start" />
+          <span>Start</span>
+        </div>
+        <div class="tarefas-abertas"> 
+            <div id="OldNotesTaref"> <img src="/assets/Sticky_Notes_Windows_XP_Tablet_Edition.webp" alt="" class="btntaref"><h1>OldNotes</h1></div>
+        </div>
+        <div class="relogio" id="relogio">00:00</div>
+      </footer>
+      
+      
+
+    <style>
+        * {
+          cursor: url('/assets/cursor\ \(1\).cur'), auto !important;
+        }
+        </style>
+</div>
+
+    <script src="/src/script-carregando.js"></script>
+    <script src="/src/script-gerenciador.js"></script>
+    <script src="/src/script.js"></script>
+</body>
+</html>

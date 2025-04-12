@@ -1,0 +1,91 @@
+#CriarNota {
+    display: grid;
+}
+
+.app {
+    width: 90px;
+    margin: 20px;
+    margin-bottom: 0px;
+}
+
+.app-nome {
+    margin-left: 15px;
+    font-family: Tahoma, sans-serif;
+    font-size: 11px;
+    color: white;
+    text-shadow: 1px 1px 2px black;
+    text-align: center;
+    width: 80px; 
+    margin-top: 5px;
+    word-wrap: break-word;
+    user-select: none;
+  }
+  
+  
+  .xp-erro {
+    width: 300px;
+    background-color: #ece9d8;
+    border: 2px solid #000080;
+    border-radius: 2px;
+    box-shadow: 6px 6px 12px rgba(0, 0, 0, 0.4);
+    font-family: Tahoma, sans-serif;
+    position: absolute;
+    top: 160px;
+    left: 160px;
+    z-index: 1000;
+    display: none;
+  }
+  
+  .xp-barra-superior {
+    background: linear-gradient(to right, #000080, #1a3cb8);
+    color: white;
+    padding: 4px 8px;
+    font-size: 13px;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 22px;
+    user-select: none;
+  }
+  
+  .xp-botoes {
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .xp-botoes button {
+    padding: 2px 20px;
+    font-size: 13px;
+    background-color: #e0e0e0;
+    border: 1px solid #808080;
+    box-shadow: inset 1px 1px white, inset -1px -1px gray;
+    cursor: pointer;
+  }
+  
+  .xp-conteudo {
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    gap: 10px;
+  }
+  
+  .xp-icone {
+    width: 72px;
+    height: 72px;
+  }
+  
+  .xp-mensagem {
+    font-size: 13px;
+  }
+  
+  .btnfechar {
+    width: 16px;
+    height: 16px;
+    background-color: red;
+    border: 1px solid #000;
+    box-shadow: inset 1px 1px white, inset -1px -1px gray;
+    cursor: pointer;
+  }
+  
